@@ -1,0 +1,22 @@
+// fonts
+
+$primary-text: 'Lato', sans-serif;
+$primary-title: 'Playfair Display', serif;
+
+// colors
+
+$color-primary: #262A3F;
+$color-secondary: #FFFFFF;
+$color-accent: #85BBB1;
+$color-buttons: #F1897B;
+$color-grey: #E4E4E4;
+$color-hover: #E64F3A;
+
+// breakpoints
+
+$desktop-big-start: 1441px;
+$desktop: 1440px;
+$tablet-end: $desktop - 1;
+$tablet-start: 768px;
+$mobile-end: $tablet-start - 1;
+$mobile: 320px;

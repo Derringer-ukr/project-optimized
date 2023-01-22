@@ -1,0 +1,20 @@
+.divider {
+    width: 100px;
+    border-bottom: 1px solid $color-accent;
+    border-top: transparent;
+    margin: 2.778vw 0;
+
+    &-advantages {
+        width: 100%;
+        border-bottom: 1px solid $color-grey;
+        border-top: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: $tablet-start) {
+            margin-bottom: 2.083vw;  
+        }
+ 
+
+    }
+}

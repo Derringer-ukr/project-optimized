@@ -1,0 +1,14 @@
+.header__logo {
+    display: flex;
+
+    &-link {
+        display: contents;
+    }
+
+    & img {
+        @media screen and (min-width: $desktop-big-start) {
+            width: 7.5vw;
+            height: 2.222vw;
+        }
+    }    
+}

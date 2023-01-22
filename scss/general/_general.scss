@@ -1,0 +1,17 @@
+@import "./fonts";
+@import "./variables";
+@import "./typography";
+
+body {
+    width: 100%;
+    padding: 30px 0 0 0;
+    color: $color-primary;
+    position: relative;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+

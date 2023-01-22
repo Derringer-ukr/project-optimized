@@ -1,0 +1,19 @@
+.header {
+    
+    padding: 1.667vw 9.375vw;
+    margin-bottom: 10.4vw;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(4.5px);
+    position: relative;
+
+    @media screen and (max-width: $tablet-start) {
+        padding: 10px 9.375vw;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}

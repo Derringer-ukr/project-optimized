@@ -1,0 +1,60 @@
+.main__contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 6.944vw;
+
+    &-text {
+        @media screen and (max-width: $tablet-start) {
+            text-align: center;  
+        }
+    }
+
+    &-description {
+        min-width: 300px;
+        margin: 1.458vw 15px 30px 0;
+        width: 32.639vw;
+
+
+        @media screen and (max-width: $tablet-start) {
+            min-width: auto;
+            margin-right: 0; 
+            width: 100%; 
+        }
+    }
+
+    &-title {
+        margin-bottom: 29px;
+
+        @media screen and (max-width: $tablet-start) {
+            text-align: center; 
+        }
+        
+    }
+
+    &-wrapper {
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        min-width: 300px;
+        width: 32.639vw;
+
+        @media screen and (max-width: $tablet-start) {
+            width: 100%;
+            min-width: 260px;
+        }
+
+        @media screen and (min-width: $desktop-big-start) {
+            width: 32.639vw;
+            height: 16.667vw;
+        }
+    }
+
+    &-inputs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

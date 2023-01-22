@@ -1,0 +1,35 @@
+.main__banner {
+    width: 36.3vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10.417vw;
+
+    @media screen and (max-width: $tablet-start) {
+        width:49.3vw;    
+    }
+
+    &-title {
+        margin-bottom: 20px;
+        min-width: 470px;
+
+        @media screen and (max-width: $tablet-start) {
+            min-width: 260px;    
+        }
+
+        @media screen and (min-width: $desktop-big-start) {
+            margin-bottom: 1.389vw;
+        }
+    }
+
+    &-description {
+        margin-bottom: 20px;
+        min-width: 260px;
+        z-index: -1;
+
+        @media screen and (min-width: $desktop-big-start) {
+            margin-bottom: 1.389vw;
+        }
+    }
+}
+
+

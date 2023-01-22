@@ -1,0 +1,10 @@
+.dollar-symbol {
+    font-size: 40px;
+    color: $color-grey;
+    margin-right: 10px;
+
+       @media screen and (max-width: $tablet-start) {
+        font-size: 30px;  
+    }
+
+}

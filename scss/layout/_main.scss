@@ -1,0 +1,55 @@
+.main {
+    padding: 0 9.375vw;
+
+    &__quote {
+        background-image: url(../img/Quote_2.png);
+
+        padding: 6.94vw 20.833vw 6.94vw 11.11vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 8.333vw;
+
+
+        @media screen and (max-width: $tablet-start) {
+            padding: 6.94vw 11.11vw 6.94vw 11.11vw;    
+        }
+        
+        &-text {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__tablet-wrapper {
+        background-image: url(../img/tablet.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 67.361vw;
+        height: 41.736vw;
+        margin-bottom: 50px;
+        position: relative;
+
+        @media screen and (max-width: $tablet-start) {
+            background-image: none;
+            padding: 2.083vw;  
+            background-size: cover; 
+            width: 95%;
+            height: 43.478vw; 
+            margin-bottom: 30px;
+        }
+
+
+    }
+
+    &__video {
+
+        border-radius: 8px;
+        position: absolute;
+        height: 89.6%;
+        width: 89.6%;
+        top: 5%;
+        left: 3%;
+        border: none;
+  
+    }
+}
+

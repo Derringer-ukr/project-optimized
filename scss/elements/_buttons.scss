@@ -1,0 +1,125 @@
+.btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    color: $color-buttons;
+    
+
+    &-burger {
+        height: 32px;
+        width: 36px;
+    }
+
+    &-mobile {
+        display: none;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 0;
+
+
+        @media screen and (max-width: $tablet-start) {
+            display: contents;
+        }
+    }
+
+    &-numbers-overview {
+        width: 182px;
+        margin-top: 20px;
+
+        @media screen and (max-width: $tablet-start) {
+            margin-top: 10px; 
+        }
+
+        @media screen and (min-width: $desktop-big-start) {
+            width: auto;
+        }
+    }
+    
+    &-banner-main {
+        width: 122px;
+
+        @media screen and (min-width: $desktop-big-start) {
+            width: 8.472vw;
+        }
+        
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 11.5%;
+        right: 0%;
+        top: 57.83%;
+        bottom: -14%;
+        background: #F1897B;
+        opacity: 0.3;
+
+    }
+
+    &-features-item {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 0;
+        position: relative;
+        color: $color-buttons;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 11.5%;
+            right: 0%;
+            top: 57.83%;
+            bottom: -14%;
+            background: $color-buttons;
+            opacity: 0.3;
+    }
+}
+
+    &-contact-form {
+        width: 173px;
+
+        @media screen and (min-width: $desktop-big-start) {
+            width: auto;
+        }
+    }
+
+    &-line {
+        position: absolute;
+        left: 9.98%;
+        right: 0%;
+        top: 49.83%;
+        bottom: -13%;
+        background: #F1897B;
+        opacity: 0.3;
+    }
+
+    &-wrapper {
+        position: relative;
+        width: fit-content;
+        cursor: pointer;
+
+        &:hover .btn-contact-form {
+            color: $color-hover;
+        }
+
+        &:hover .btn-line {
+            background: $color-hover;
+        }
+    }
+
+    &:hover {
+        color: $color-hover;
+    }
+
+    &:hover::after {
+        background: $color-hover;
+    }
+}
+

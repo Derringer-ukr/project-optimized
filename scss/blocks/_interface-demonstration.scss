@@ -1,0 +1,25 @@
+.main__interface-demonstration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67.36vw;
+    margin: 0 auto;
+    margin-bottom: 8.333vw;
+
+    @media screen and (max-width: $tablet-start) {
+        width: 100%; 
+        text-align: center;  
+    }
+
+    &-description {
+        padding-right: 73px;
+
+        @media screen and (max-width: $tablet-start) {
+            padding: 0; 
+        }     
+    }
+
+    &-title {
+        margin-bottom: 20px;    
+    }
+}
